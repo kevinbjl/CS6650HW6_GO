@@ -43,8 +43,8 @@ func initDB() {
 	}
 
 	// Set connection pooling configurations
-	db.SetMaxOpenConns(58)
-	db.SetMaxIdleConns(20)
+	db.SetMaxOpenConns(88)
+	db.SetMaxIdleConns(30)
 	db.SetConnMaxLifetime(0)
 
 	// Create Albums table if it doesn't exist
